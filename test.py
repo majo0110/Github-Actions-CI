@@ -8,5 +8,9 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.add(10, 15), 25)
 
 
+    def test_subtraction(self):
+        self.assertEqual(example.subtract(10, 15), 25)
+
+
 if __name__ == '__main__':
     unittest.main()
